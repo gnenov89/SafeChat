@@ -16,15 +16,15 @@ SafeChat is massaging app which keeps your privacy private. All you need to do i
 ── LICENSE
 ├── README.md
 ├── config
-│   ├── connection.js
-│   ├── io.js
-│   └── orm.js
+│   ├── connection.js - // Connect to MySQL
+│   ├── io.js  - // This page defines the server-side listener for socket emits
+│   └── orm.js // Connect to connection.js file 
 ├── controllers
-│   └── controller.js
+│   └── controller.js // Routing with Express.js + messageModel from ./models/messages.js
 ├── db
-│   └── schema.sql
-├── models
-│   └── message.js
+│   └── schema.sql //MySql initial schema 
+├── models . 
+│ └── message.js -// Import the ORM to create functions that will interact with the database.
 ├── package.json
 ├── public
 │   ├── logo.png
@@ -32,9 +32,9 @@ SafeChat is massaging app which keeps your privacy private. All you need to do i
 │   └── style.css
 ├── server.js
 └── views
-    ├── index.handlebars
+    ├── index.handlebars  
     └── layouts
-        └── main.handlebars
+        └── main.handlebars . 
 ```
 
 
@@ -42,8 +42,9 @@ SafeChat is massaging app which keeps your privacy private. All you need to do i
 ## Built With
 * [Node.js](https://nodejs.org/en/)
 * [Handlebars.JS](https://handlebarsjs.com/)
-* [Express.js](https://expressjs.com/)
 * [Materialize](https://materializecss.com/)
+* [Object Relational Mapping]()
+* [Express.js](https://expressjs.com/)
 * [Socket.io](https://socket.io/)
 * [MySqljs](https://github.com/mysqljs/mysql)
 
