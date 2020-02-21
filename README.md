@@ -2,37 +2,51 @@
 
 ## The messaging app that keeps your messages safe from prying eyes.
 
-[Visit Site](http://www.safechatonline.com)
+## About 
 
+SafeChat is massaging app which keeps your privacy private. All you need to do is click on the lock button right next to the SafeChat tag and you will hide your actual chat with a dummy chat box. 
 
-
-
-# Project Title
-
-ATF - AnyTimeFitness
 
 # Project Link
 
-https://gnenov89.github.io/ATF/
+(http://www.safechatonline.com)
+
+# Project Structure
+
+── LICENSE
+├── README.md
+├── config
+│   ├── connection.js
+│   ├── io.js
+│   └── orm.js
+├── controllers
+│   └── controller.js
+├── db
+│   └── schema.sql
+├── models
+│   └── message.js
+├── package.json
+├── public
+│   ├── logo.png
+│   ├── script.js
+│   └── style.css
+├── server.js
+└── views
+    ├── index.handlebars
+    └── layouts
+        └── main.handlebars
 
 
-## About 
-
-This is project presents the use React Router v4, a declarative routing solution for React, to manage navigation and rendering of components in your applications.
-Project Content:
-
-* Routing with the <Route/> Component
-* Declaring routes
-* Navigating between routes
-* Nesting routes
-* URL parameters
-* 404 error routes
-* Changing routes programmatically
 
 
 ## Built With
+* [Node.js](https://nodejs.org/en/)
+* [Handlebars.JS](https://handlebarsjs.com/)
+* [Express.js](https://expressjs.com/)
+* [Materialize](https://materializecss.com/)
+* [Socket.io](https://socket.io/)
+* [MySqljs](https://github.com/mysqljs/mysql)
 
-* [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html)
 
 
 
