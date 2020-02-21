@@ -12,7 +12,7 @@ SafeChat is massaging app which keeps your privacy private. All you need to do i
 (http://www.safechatonline.com)
 
 # Project Structure
-
+```
 ── LICENSE
 ├── README.md
 ├── config
@@ -35,7 +35,7 @@ SafeChat is massaging app which keeps your privacy private. All you need to do i
     ├── index.handlebars
     └── layouts
         └── main.handlebars
-
+```
 
 
 
