@@ -46,7 +46,7 @@ SafeChat is massaging app which keeps your privacy private. All you need to do i
 * [Object Relational Mapping]()
 * [Express.js](https://expressjs.com/)
 * [Socket.io](https://socket.io/)
-* [MySqljs](https://github.com/mysqljs/mysql)
+* [MySQL](https://github.com/mysqljs/mysql)
 
 
 
